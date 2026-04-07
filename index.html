@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mithunathith M.R - Frontend Web Developer</title>
+    <meta name="description" content="Frontend Web Developer Portfolio - Mithunathith M.R from Erode">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Animated Background -->
+    <div class="animated-background">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Mithunathith</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-name">
+                        Hi, I'm <span class="gradient-text">Mithunathith M.R</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <span id="typedText"></span>
+                        <span class="typing-cursor">|</span>
+                    </div>
+                    <p class="hero-description">
+                        Passionate Frontend Web Developer from Erode, crafting beautiful and functional web experiences
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-icon">↓</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><span class="gradient-text">About Me</span></h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-image-frame">
+                        <img src="mithun.jpeg" alt="Portrait of Mithunathith M.R" class="profile-photo">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a passionate Frontend Web Developer based in Erode, dedicated to creating stunning and user-friendly web applications. With a strong foundation in modern web technologies, I transform ideas into reality through clean code and creative design.
+                    </p>
+                    <p class="about-description">
+                        My journey in web development is driven by curiosity and a commitment to continuous learning. I specialize in building responsive, accessible, and performant websites that provide exceptional user experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><span class="gradient-text">My Skills</span></h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-name">HTML5</h3>
+                    <p class="skill-description">Semantic markup and modern web standards</p>
+                    <div class="skill-progress-container">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                    <span class="progress-text">95%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M7 7h10M7 12h10M7 17h10"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-name">CSS3</h3>
+                    <p class="skill-description">Responsive design and modern layouts</p>
+                    <div class="skill-progress-container">
+                        <div class="skill-progress" data-progress="90"></div>
+                    </div>
+                    <span class="progress-text">90%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <p class="skill-description">ES6+ and modern frameworks</p>
+                    <div class="skill-progress-container">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                    <span class="progress-text">85%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 19h12"/>
+                            <path d="M9 16V9"/>
+                            <path d="M15 16V9"/>
+                            <path d="M10 9V5h4v4"/>
+                            <path d="M4 16h16"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-name">Cloud EC2</h3>
+                    <p class="skill-description">Managing scalable AWS EC2 cloud infrastructure basics</p>
+                    <div class="skill-progress-container">
+                        <div class="skill-progress" data-progress="80"></div>
+                    </div>
+                    <span class="progress-text">80%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><span class="gradient-text">Featured Projects</span></h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=600&fit=crop" alt="Fingerprint Voting Machine">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Project">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                        <polyline points="15 3 21 3 21 9"/>
+                                        <line x1="10" y1="14" x2="21" y2="3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Fingerprint Voting Machine</h3>
+                        <p class="project-description">
+                            A secure and innovative voting system using biometric fingerprint authentication. This project demonstrates advanced security implementation and user-friendly interface design.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Security</span>
+                            <span class="project-tag">Biometric</span>
+                            <span class="project-tag">Innovation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="data:image/jpeg;base64,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" alt="Weather App interface">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://mithunweather.vercel.app/" class="project-link" aria-label="View Project">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                        <polyline points="15 3 21 3 21 9"/>
+                                        <line x1="10" y1="14" x2="21" y2="3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather App</h3>
+                        <p class="project-description">
+                            A responsive weather application built using HTML, CSS, and JavaScript that shows real-time weather details, temperature, and city-based forecasts with a clean user interface.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="certificate-hero-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="8" r="7"></circle>
+                        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                    </svg>
+                </div>
+                <h2 class="section-title"><span class="gradient-text">My Certificates</span></h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Professional certifications and achievements showcasing continuous learning and skill development</p>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="Certification Icon.png" alt="AWS Academy Graduate - Cloud Foundations">
+                        <div class="certificate-image-overlay"></div>
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        </div>
+                        <h3 class="certificate-name">AWS Academy Graduate - Cloud Foundations</h3>
+                        <p class="certificate-issuer">Amazon Web Services Training and Certification</p>
+                        <p class="certificate-date">January 2026</p>
+                        <button onclick="openModal(0)" class="btn btn-primary btn-view">View Certificate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><span class="gradient-text">Get In Touch</span></h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon email-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <p class="contact-label">Email</p>
+                            <a href="mailto:mithun220305@gmail.com" class="contact-value">mithun220305@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon location-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <p class="contact-label">Location</p>
+                            <p class="contact-value">Erode, Tamil Nadu</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon linkedin-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <p class="contact-label">LinkedIn</p>
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="contact-value">Connect on LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon instagram-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <p class="contact-label">Instagram</p>
+                            <a href="https://www.instagram.com/mithun_2203_?igsh=MWJpZXhnd3hybzAxYw==" target="_blank" rel="noopener noreferrer" class="contact-value">@mithun_2203_</a>
+                        </div>
+                    </div>
+                    <div class="resume-card">
+                        <div class="resume-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                        </div>
+                        <div class="resume-content">
+                            <h3 class="resume-title">Download Resume</h3>
+                            <p class="resume-description">Get my detailed resume and portfolio</p>
+                        </div>
+                        <button class="btn btn-primary btn-resume" onclick="downloadResume()">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            <span>Download Resume</span>
+                        </button>
+                    </div>
+                    <div class="resume-card">
+                        <div class="resume-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="resume-content">
+                            <h3 class="resume-title">View Resume</h3>
+                            <p class="resume-description">Open my detailed resume in browser</p>
+                        </div>
+                        <button class="btn btn-primary btn-resume" onclick="viewResume()">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                            <span>View Resume</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-input" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" class="form-input form-textarea" placeholder="Your Message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"/>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                            </svg>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="social-link linkedin" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/mithun_2203_?igsh=MWJpZXhnd3hybzAxYw==" target="_blank" rel="noopener noreferrer" class="social-link instagram" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:mithun220305@gmail.com" class="social-link email" aria-label="Email">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link github" aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        </svg>
+                    </a>
+                </div>
+                <p class="footer-text">Made with <span class="heart">❤️</span> by <span class="gradient-text">Mithunathith M.R</span></p>
+                <p class="footer-copyright">© 2024 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="modal">
+        <div class="modal-overlay" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle" class="modal-title"></h3>
+                <button onclick="closeModal()" class="modal-close" aria-label="Close modal">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img id="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeoBOkGznT8Zy3JiPtYkS8UW2Y1HAcjWKJ8A&s" src="" alt="" class="modal-image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="19" x2="12" y2="5"/>
+            <polyline points="5 12 12 5 19 12"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
