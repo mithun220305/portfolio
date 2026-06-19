@@ -21,7 +21,7 @@ const CERTIFICATE_COVER_IMAGE = `data:image/svg+xml;utf8,
 const RESUME_FILE = 'resume.pdf';
 
 const certificates = [
-    { id: 1, name: 'AWS Academy Graduate - Cloud Foundations', issuer: 'Amazon Web Services Training and Certification', date: 'January 2026', imageUrl: CERTIFICATE_COVER_IMAGE, pdfUrl: 'aws-cloud-foundations-certificate.pdf' }
+    { id: 1, name: 'AWS Academy Graduate - Cloud Foundations', issuer: 'Amazon Web Services Training and Certification', imageUrl: 'AWS_CertifiedCloudPractitionercertificate_page-0001.jpg' }
 ];
 
 // ========================================
